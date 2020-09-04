@@ -56,7 +56,7 @@ menu a.current:hover {
   }
 }
 
-@media (max-width: 1194px) {
+@media (max-width: 1250px) {
 
   menu a:first-child{
     width: 150px;
@@ -65,10 +65,20 @@ menu a.current:hover {
 
   menu a {
     font-size: 12px;
+    line-height: 16px;
   }
 
 
+}
+
+@media (max-width: 414px) {
+  menu a:first-child{
+    width: 160px;
+    height: 14px;
   }
 
-
+  menu a {
+    font-size: 12px;
+    line-height: 16px;
+  }
 }
